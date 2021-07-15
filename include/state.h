@@ -6,10 +6,6 @@
 
 struct State {
     // data structure
-    int index;
-    int r, g, b;
-    int industry;
-    int next;
 };
 
 // function

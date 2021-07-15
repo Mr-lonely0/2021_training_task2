@@ -15,13 +15,13 @@ int main() {
 int solve_algo() {
     struct PNG *png = new PNG();
     init_PNG(png);
-    load(png, "pic/test1.png");
+    load(png, "pic/test4.png");
     State *state = new State();
     init_State(state);
     parse(state, png);
     std::cout << solve1(state) << std::endl;
     std::cout << solve2(state) << std::endl;
-    save(png, "pic/test1.png");
+    save(png, "pic/test4.png");
     delete_State(state);
     delete_PNG(png);
     delete state;
